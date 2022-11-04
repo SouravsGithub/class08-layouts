@@ -28,32 +28,33 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-  height: 55px;
-  background: #607e93;
-}
-header nav {
-  width: 90%;
-  margin: auto;
-  color: white;
-  padding-top: 15px;
+  height: 60px;
+  background: rgb(76, 92, 112);
 }
 header nav > * {
+  padding-top: 20px;
   float: left;
-  width: 33.3333%;
-}
-header nav > a {
-  text-align: end;
-}
-header nav a {
-  text-decoration: none;
+  width: 25%;
+  text-align: center;
   color: white;
+  text-decoration: none;
 }
-header nav .container a {
-  margin: 0 5px;
+.hero {
+  background: rgb(76, 92, 112);
 }
-footer {
+.hero * {
+  text-align: center;
+  margin: 0;
+  padding: 0 8%;
+  color: white;
+  display: block;
 }
-
+.hero h1 {
+  font-size: 70px;
+  padding-top: 8%;
+  padding-bottom: 5%;
+  transform: scaleY(1.5);
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
