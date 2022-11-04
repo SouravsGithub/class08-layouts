@@ -55,6 +55,29 @@ header nav > * {
   padding-bottom: 5%;
   transform: scaleY(1.5);
 }
+.hero span {
+  margin-top: 5%;
+  font-size: 30px;
+}
+
+.hero + section {
+  height: 500px;
+}
+.container {
+  height: 200px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.container h2 {
+  font-size: 35px;
+  transform: scaleY(1.5);
+}
+.container p {
+  font-size: 25px;
+  font-weight: bold;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
