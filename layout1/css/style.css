@@ -78,6 +78,18 @@ header nav > * {
   font-size: 25px;
   font-weight: bold;
 }
+
+.cards {
+  height: 300px;
+  width: 80%;
+  margin: auto;
+}
+.card {
+  float: left;
+  width: 45%;
+  text-align: center;
+  margin: 0 2.5%;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
