@@ -63,18 +63,18 @@ header nav > * {
 .hero + section {
   height: 500px;
 }
-.container {
+.why {
   height: 200px;
   width: 50%;
   margin: auto;
   text-align: center;
   padding-top: 100px;
 }
-.container h2 {
+.why h2 {
   font-size: 35px;
   transform: scaleY(1.5);
 }
-.container p {
+.why p {
   font-size: 25px;
   font-weight: bold;
 }
