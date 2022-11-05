@@ -173,10 +173,11 @@ footer .container {
 }
 footer .container > section {
   float: left;
-  width: 50%;
+  width: 20%;
 }
 footer .container > section + section {
-  text-align: end;
+  margin-left: 60%;
+  text-align: start;
 }
 footer .container section img {
   width: 40px;
@@ -184,14 +185,14 @@ footer .container section img {
 }
 footer span {
   display: block;
-  margin-top: 3%;
+  margin-top: 8%;
 }
 footer a {
   text-decoration: none;
   color: white;
 }
 footer span + a {
-  margin-right: 2%;
+  margin-right: 10%;
   font-weight: bold;
 }
 footer > p {
