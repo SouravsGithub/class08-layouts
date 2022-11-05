@@ -181,7 +181,7 @@ footer .container > section + section {
 }
 footer .container section img {
   width: 40px;
-  margin: 0 1%;
+  margin-right: 4%;
 }
 footer span {
   display: block;
