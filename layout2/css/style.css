@@ -64,7 +64,9 @@ header nav > a {
 .hero img {
   width: 100%;
 }
-
+.hero-text {
+  padding-top: 6%;
+}
 /* FEATURES SECTION */
 
 .container {
@@ -73,7 +75,8 @@ header nav > a {
 }
 .container > section {
   float: left;
-  width: 25%;
+  width: 20%;
+  margin-right: 5%;
 }
 /******************************************
 /* ADDITIONAL STYLES
