@@ -35,6 +35,10 @@ h5,
 h6 {
   color: #2e4457;
 }
+p {
+  font-weight: normal;
+  line-height: 1.5;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -96,8 +100,6 @@ header nav > a {
 }
 .hero-text p {
   padding: 1%;
-  font-weight: normal;
-  line-height: 1.5;
 }
 .hero-text form {
   display: inline;
