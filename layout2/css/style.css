@@ -5,16 +5,16 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
@@ -22,21 +22,56 @@
 /*******************************************/
 
 body {
-
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+/* HEADER STYLING */
+
 header {
-
+}
+header nav {
+  width: 90%;
+  margin: 0 auto;
+}
+header nav > * {
+  float: left;
+  width: 25%;
+}
+header nav > ul {
+  width: 50%;
+}
+header nav ul li {
+  float: left;
+  width: 25%;
+}
+header nav > a {
+  text-align: end;
 }
 
-footer {
+/* HERO STYLING */
 
+.hero {
+  width: 90%;
+  margin-left: 10%;
+}
+.hero > section {
+  float: left;
+  width: 50%;
 }
 
+/* FEATURES SECTION */
+
+.container {
+  width: 90%;
+  margin-left: 10%;
+}
+.container > section {
+  float: left;
+  width: 25%;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
