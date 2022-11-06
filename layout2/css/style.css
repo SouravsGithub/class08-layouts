@@ -61,6 +61,9 @@ header nav > a {
   float: left;
   width: 50%;
 }
+.hero img {
+  width: 100%;
+}
 
 /* FEATURES SECTION */
 
