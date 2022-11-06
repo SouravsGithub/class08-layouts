@@ -22,6 +22,10 @@
 /*******************************************/
 
 body {
+  height: 100%;
+  background: #f3fbfb;
+  color: #435668;
+  font-family: "Poppins", sans-serif;
 }
 
 /******************************************
@@ -31,6 +35,7 @@ body {
 /* HEADER STYLING */
 
 header {
+  height: 60px;
 }
 header nav {
   width: 90%;
@@ -38,17 +43,27 @@ header nav {
 }
 header nav > * {
   float: left;
-  width: 25%;
+  width: 6%;
+  margin-right: 19%;
 }
 header nav > ul {
   width: 50%;
+  list-style: none;
+  padding-top: 0.5%;
 }
 header nav ul li {
   float: left;
   width: 25%;
 }
+header nav ul li a {
+  text-decoration: none;
+  color: #435668;
+}
 header nav > a {
-  text-align: end;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 0;
+  margin-top: 1%;
 }
 
 /* HERO STYLING */
@@ -56,6 +71,8 @@ header nav > a {
 .hero {
   width: 90%;
   margin-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 40%;
 }
 .hero > section {
   float: left;
@@ -66,6 +83,18 @@ header nav > a {
 }
 .hero-text {
   padding-top: 6%;
+}
+.hero-text h1 {
+  font-size: 50px;
+}
+.hero-text form {
+  display: inline;
+}
+.hero-text form input {
+  background: #e1e9f0;
+  border: none;
+  padding: 0.7rem 1rem;
+  font-size: 14px;
 }
 /* FEATURES SECTION */
 
@@ -78,6 +107,18 @@ header nav > a {
   width: 20%;
   margin-right: 5%;
 }
+.container > section a {
+  text-decoration: none;
+  color: #435668;
+  font-weight: bold;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.btn {
+  text-decoration: none;
+  color: white;
+  background: #435668;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
