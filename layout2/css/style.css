@@ -179,3 +179,51 @@ header nav > a {
     margin-bottom: 5%;
   }
 }
+@media (min-width: 800px) and (max-width: 1156px) {
+  .hero > section {
+    width: 50%;
+  }
+  .hero-img {
+    margin-top: 15%;
+  }
+
+  .container {
+    clear: both;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 799px) {
+  header nav ul,
+  header nav > a {
+    display: none;
+  }
+  header nav h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #e1e9f0;
+    padding-bottom: 6%;
+    font-size: 40px;
+  }
+  .hero > section {
+    width: 100%;
+  }
+  .hero-text h1 {
+    font-size: 60px;
+  }
+  .hero-text form input {
+    padding: 1.2rem;
+  }
+  .btn-form {
+    padding: 1rem 1.5rem;
+  }
+  body p,
+  .container a,
+  .container h3 {
+    font-size: 22px;
+  }
+  .container > section {
+    display: block;
+    width: 90%;
+    margin-bottom: 5%;
+  }
+}
